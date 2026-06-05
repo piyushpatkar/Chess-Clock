@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess clock</title>
+    <link rel="stylesheet" href="/Chess clock/style.css">
+
+
+
+</head>
+<body id="body">
+     
+    <div id="input">
+        <img src="/Chess clock/images/chess icon.png" alt="" srcset="">
+    <h2 style="color: rgb(255, 255, 255); text-shadow: 0px 0px 20px rgba(0, 0, 0, 1.479); position: relative; bottom: 30px; margin: 30px;margin-bottom: 25px;">
+        CHESS
+        CLOCK
+    </h2>
+    <input type="number"  id="timeM" placeholder="Enter minutes">
+    <input type="number"  id="timeS" placeholder="Enter seconds">
+   <button id="submitBtn">  Submit </button>
+
+   </div >
+   
+      <div id="myDiv" style="display:none;">
+         
+        <div id="idiv" onclick="start();">
+            
+            
+            <h2 id="minutes">0</h2>
+            <h2>:</h2>
+            <h2 id="seconds">00</h2>
+        
+        </div>
+        
+        
+        <div id="dif">
+        <h4>CHESS CLOCK</h2>
+        </div>
+
+
+        <div id="idiv2" onclick="start2();">
+            
+            <h2 id="minute">0</h2>
+            <h2>:</h2>
+            <h2 id="second">00</h2>    
+        </div>
+
+    </div>
+    
+
+    <script src="/Chess clock/index.js">
+    </script>
+</body>
+</html>

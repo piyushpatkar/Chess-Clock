@@ -1,0 +1,156 @@
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    background-image: url("/Chess clock/images/chess\ back.png");
+
+} 
+
+div{
+    
+    width: 200px;
+    height: 400px;
+    
+}
+
+img{
+width: 80px;
+height: auto;
+margin: 20px;
+
+}
+#input{
+
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 5);
+    box-shadow: 0px 0px 20px;
+    
+}
+
+#submitBtn{
+
+height: 40px;
+width: 100px;
+margin: 10px;
+margin-left: 80px;
+margin-right: 80px;
+font-size: 20px;
+border: none;
+padding: 08px;
+background-color: hsl(96, 44%, 51%);
+color: white;
+border-radius: 2px;
+position: relative;
+bottom: 34px;
+
+}
+#submitBtn:hover{
+
+ background-color: hsl(96, 44%, 41%);  
+
+}
+
+#timeS{
+    
+   background-color: #fcfbf2;
+   box-shadow: 0px 0px 10px;
+   font-size: large;
+   padding-top: 4%;
+   border-radius: 2px;
+   margin: 5px;
+   background-color: none;
+   border: none;
+   position: relative;
+   bottom: 40px;
+
+}
+
+#timeM{
+
+    background-color: #fcfbf2;
+    box-shadow: 0px 0px 10px;
+    font-size: large;
+    border-radius: 2px;
+    padding-top: 4%;    
+    margin: 5px;
+    background-color: none;
+    border: none;
+    position: relative;
+    bottom: 40px;
+   
+}
+
+#dif{
+
+    width: 300px;
+    height: 40px;
+    background-color: rgba(88, 88, 88, 0.712);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 100px black;
+     
+}
+
+#idiv{
+
+    background-color: hsl(0, 0%, 80%);
+    width: 300px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+#idiv2{
+
+    background-color:hsl(0, 0%, 80%);
+    width: 300px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+#idiv:hover{
+
+    background-color:hsl(0, 0%, 75%);
+
+}
+
+#idiv2:hover{
+
+    background-color:hsl(0, 0%, 75%);
+
+}
+
+h2{
+
+    display: inline-flex;
+    font-size: 40px;
+    align-content: center;
+
+}
+
+#myDiv{ 
+
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ width: 300px;
+ height:600px ;  
+ box-shadow: 0px 0px 20px;
+
+}
+
